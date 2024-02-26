@@ -1,0 +1,37 @@
+{
+	"name": "proginow/http",
+	"description": "Proginow Framework Http Library,HTTP Utilities.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "http", "https", "headers" ],
+	"require": {
+	  "php": ">=8.1.0"
+	},
+	"authors": [
+	  {
+		"name": "Proginow",
+		"email": "info@proginow.com",
+		"homepage": "https://proginow.com",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/proginow/http"
+	  }
+	],
+	"support": {
+		  "email": "info@proginow.com"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Proginow\\Http\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
