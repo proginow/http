@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"keywords": [ "http", "https", "headers" ],
 	"require": {
-	  "php": ">=8.1.0"
+	  "php": ">=8.2.0"
 	},
 	"authors": [
 	  {
